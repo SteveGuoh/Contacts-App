@@ -1,65 +1,66 @@
-# Getting Started with Create React App
+# Contacts App 📞
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is designed to display contact details fetched from a predefined API.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Contact App fetches and displays detailed contact information from individual users. The data is sourced from the following API:
 
-### `npm run dev`
+[JSON Placeholder Users API](https://jsonplaceholder.typicode.com/users)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Setup and Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Before you can run this project, make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/get-npm) (Node Package Manager) installed on your machine.
 
-### `npm run build`
+### 1️⃣ Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/SteveGuoh/Contacts-App
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2️⃣ Navigate to the directory
 
-### `npm run eject`
+After cloning the repository, navigate to the local directory of the cloned project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+cd path-to-your-local-folder/Contacts-App
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3️⃣ Install Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will install all necessary packages and dependencies required to run the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎯 How to Run the Project
 
-### Code Splitting
+In the project directory, you have several commands available:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🔍 Development Mode
 
-### Analyzing the Bundle Size
+```
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+This command runs the app in development mode. You can open http://localhost:3000 to view it in your browser. The page will automatically reload as you make changes. Any lint errors will also be displayed in the console.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🛠 Building for Production
 
-### Advanced Configuration
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+This command will create a production-ready build of your app in a `build` directory. The React code will be optimized for best performance, and the output will be minified.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📚 Additional Resources and Documentation
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/)
+- [Material UI documentation](https://mui.com/)
