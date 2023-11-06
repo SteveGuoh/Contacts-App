@@ -14,7 +14,7 @@ Before you can run this project, make sure you have [Node.js](https://nodejs.org
 
 ### 1️⃣ Clone the Repository
 
-```
+```bash
 git clone https://github.com/SteveGuoh/Contacts-App
 ```
 
@@ -23,14 +23,14 @@ git clone https://github.com/SteveGuoh/Contacts-App
 
 After cloning the repository, navigate to the local directory of the cloned project:
 
-```
+```bash
 cd path-to-your-local-folder/Contacts-App
 ```
 
 
 ### 3️⃣ Install Dependencies
 
-```
+```bash
 npm install
 ```
 
@@ -43,7 +43,7 @@ In the project directory, you have several commands available:
 
 ### 🔍 Development Mode
 
-```
+```bash
 npm run dev
 ```
 
@@ -52,7 +52,7 @@ This command runs the app in development mode. You can open http://localhost:300
 
 ### 🛠 Building for Production
 
-```
+```bash
 npm run build
 ```
 
