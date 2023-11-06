@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Container, List, ListItem, Typography } from '@mui/material';
 
-const ContactList = ({ contacts }) => {
-  return (
-    <div>
-      <h1>Contacts</h1>
-      {contacts.map(contact => (
-        <div key={contact.id}>
+const ContactList = ({ contacts }) => (
+  <Container>
+    <Typography variant="h2">Contacts</Typography>
+    <List>
+      {contacts.map((contact) => (
+        <ListItem key={contact.id}>
           <Link to={`/contact/${contact.id}`}>{contact.name}</Link>
-        </div>
+        </ListItem>
       ))}
-    </div>
-  );
-};
+    </List>
+  </Container>
+);
 
 export default ContactList;

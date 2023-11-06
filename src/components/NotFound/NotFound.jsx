@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import { Typography, Container } from "@mui/material";
 
 const NotFound = () => {
   return (
-    <div>
-      <h1>404 - Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
-    </div>
+    <Container>
+      <Typography variant="h1">404 - Not Found</Typography>
+      <Typography>The page you are looking for does not exist.</Typography>
+    </Container>
   );
 };
 

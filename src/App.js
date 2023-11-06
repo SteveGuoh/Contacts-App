@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ContactList from './components/ContactList';
 import ContactDetail from './components/ContactDetail';
 import NotFound from './components/NotFound';
-import './App.css';
+import { Box, CircularProgress, Typography } from '@mui/material';
 
 function App() {
   const [contacts, setContacts] = useState([]);
@@ -26,18 +26,24 @@ function App() {
     fetchData();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error loading contacts.</div>;
+  if (loading) 
+    return (
+      <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
+        <CircularProgress />
+      </Box>
+    );
+  
+  if (error) return <Typography variant="h6">Error loading contacts.</Typography>;
 
   return (
     <Router>
-      <div className="App">
+      <Box className="App">
         <Routes>
           <Route path="/" element={<ContactList contacts={contacts} />} />
           <Route path="/contact/:id" element={<ContactDetail contacts={contacts} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div>
+      </Box>
     </Router>
   );
 }
