@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ContactList from './components/ContactList';
 import ContactDetail from './components/ContactDetail';
 import NotFound from './components/NotFound';
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { Box, CircularProgress, Typography} from '@mui/material';
+import './App.css'
 
 function App() {
   const [contacts, setContacts] = useState([]);
