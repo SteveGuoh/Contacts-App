@@ -3,7 +3,6 @@
 This application is designed to display contact details fetched from a predefined API.
 
 ## Overview
-
 The Contact App fetches and displays detailed contact information from individual users. The data is sourced from the following API:
 
 [JSON Placeholder Users API](https://jsonplaceholder.typicode.com/users)
